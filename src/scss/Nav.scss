@@ -1,0 +1,125 @@
+@import "._global.scss";
+
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  height: 100vh;
+  width: $nav-width;
+  background-color: #fff;
+  // box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-right: 1px solid $green;
+  overflow: scroll;
+
+  .App-logo-block {
+    position: relative;
+    text-align: center;
+    background-color: #fff;
+    padding: 2rem;
+
+    .App-logo,
+    .App-logo a {
+      //   pointer-events: none;
+      width: $logo-size;
+      height: $logo-size;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      animation: grow 2s ease 0.1s 1 forwards;
+      height: 3px;
+      border-radius: 1px;
+      background-color: $pink;
+      bottom: 0;
+      left: 10%;
+    }
+  }
+
+  .nav-links {
+    text-decoration: none;
+    display: block;
+    padding: 1rem 2rem;
+    color: $dk-green;
+    transition-duration: 0.5s;
+
+    .pg-name {
+      margin-left: 3rem;
+    }
+
+    &-img {
+      width: 2.25rem;
+      position: absolute;
+      top: 8px;
+    }
+
+    &:hover {
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    &:active {
+      color: $dk-pink;
+    }
+  }
+
+  .active {
+    color: $black;
+    font-weight: bold;
+  }
+
+  .pages {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1rem;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    li {
+      margin-top: 2px;
+      border-bottom: 1px solid rgba($pink, 0.2);
+      position: relative;
+    }
+  }
+
+  .contact-link {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.25s;
+    text-decoration: none;
+
+    &:hover {
+      cursor: pointer;
+      background-color: $dk-green;
+
+      p {
+        color: #fff;
+      }
+    }
+    p {
+      position: relative;
+      font-size: 0.95rem;
+      color: rgba($dk-green, 0.9);
+      padding: 0 4rem;
+      transition: all 0.25s;
+    }
+  }
+}
+
+@keyframes grow {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 76%;
+  }
+}
