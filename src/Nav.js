@@ -9,7 +9,6 @@ import Extra from "./icons/nav-icon-05.svg";
 import LessonPlan from "./icons/nav-icon-06.svg";
 import Rubric from "./icons/nav-icon-07.svg";
 import Resume from "./icons/nav-icon-08.svg";
-import Contact from "./icons/nav-icon-09.svg";
 
 import "./scss/Nav.scss";
 
@@ -96,13 +95,14 @@ const Nav = () => {
           </Link>
         </li>
       </ul>
-      <Link
+      {/* <Link
         onClick={e => pageHandler(e, "contact")}
         className="contact-link"
         to="/contact"
       >
-        <p>Please feel free to contact me here.</p>
-      </Link>
+        <img src={Contact} alt="" />
+        <p>Message Me</p>
+      </Link> */}
     </nav>
   );
 };

@@ -1,5 +1,9 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
+
+// Pages
+import Resume from "./pages/Resume";
+
 import "./scss/Main.scss";
 
 const Main = () => {
@@ -12,7 +16,7 @@ const Main = () => {
         <Route path="/extra" render={() => <h1>Extracurricular</h1>} />
         <Route path="/lesson-plan" render={() => <h1>Sample Lesson Plan</h1>} />
         <Route path="/sample-rubric" render={() => <h1>Sample Rubric</h1>} />
-        <Route path="/my-resume" render={() => <h1>My Resume</h1>} />
+        <Route path="/my-resume" component={Resume} />
         <Route path="/contact" render={() => <h1>Contact</h1>} />
       </Switch>
     </main>
