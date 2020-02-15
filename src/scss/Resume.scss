@@ -38,7 +38,7 @@
     justify-self: end;
     // align-self: center;
 
-    &-circle {
+    &-icon {
       img {
         width: 2.75rem;
       }
@@ -75,13 +75,14 @@
 
   &-job {
     grid-column: 1 / -1;
+    padding-bottom: 1rem;
 
     &-title {
       font-weight: bold;
     }
 
     &-description {
-      margin: 1rem 0 0 1rem !important;
+      margin: 0.5rem 0 0 1rem !important;
 
       li::before {
         content: "\2022";

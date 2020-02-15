@@ -11,7 +11,7 @@ const Resume = () => {
         <p>Art Teacher at Maspeth High School</p>
       </section>
       <section className="resume-contact">
-        <div className="resume-contact-circle">
+        <div className="resume-contact-icon">
           <img src={Contact} alt="" />
         </div>
       </section>
@@ -49,9 +49,11 @@ const Resume = () => {
           K-12)
         </p>
       </section>
+
       <section className="resume-label">
         <h2>Teacher Experience</h2>
       </section>
+
       <section className="resume-job">
         <ul>
           <li className="resume-job-title">
@@ -84,6 +86,149 @@ const Resume = () => {
           <li>
             Built and maintained a positive rapport with both students, parents,
             colleagues, and administration.
+          </li>
+        </ul>
+      </section>
+
+      <section className="resume-job">
+        <ul>
+          <li className="resume-job-title">AMS III New Visions High School</li>
+          <li>Art Teacher, August 2013 - August 2014</li>
+        </ul>
+        <ul className="resume-job-description">
+          <li>
+            Taught student’s visual literacy, art appreciation, an understanding
+            of art historical context and art vocabulary.
+          </li>
+          <li>
+            Designed a Studio in Art Curriculum that consists of drawing,
+            painting, sculpture, and graphic design.
+          </li>
+          <li>
+            Developed a brand new visual arts program in a brand new school.
+          </li>
+          <li>
+            Collaborated with Teaching Artists from the Lincoln Arts Center.
+          </li>
+          <li>
+            Integrated fine arts into the Global Studies Curriculum by
+            co-teaching with Global Studies Teacher.
+          </li>
+        </ul>
+      </section>
+
+      <section className="resume-job">
+        <ul>
+          <li className="resume-job-title">Tackan Elementary School</li>
+          <li>Student Teacher, October 2012 - December 2012</li>
+        </ul>
+        <ul className="resume-job-description">
+          <li>
+            Taught lessons for grades k-5 that incorporated art history and a
+            variety of artistic skills.
+          </li>
+          <li>
+            Incorporated the elements and principles of design into lessons in
+            an age appropriate manner.
+          </li>
+          <li>
+            Facilitated the opportunity for students to display their works of
+            art at a local art exhibition.
+          </li>
+        </ul>
+      </section>
+
+      <section className="resume-job">
+        <ul>
+          <li className="resume-job-title">Smithtown High School</li>
+          <li>Art Teacher, September 2012 - October 2012</li>
+        </ul>
+        <ul className="resume-job-description">
+          <li>Taught grades 9 through 12.</li>
+          <li>
+            Planned and taught lessons for studio in art, ceramics, and crafts
+            classes.
+          </li>
+        </ul>
+      </section>
+
+      <section className="resume-job">
+        <ul>
+          <li className="resume-job-title">
+            Half Hollow Hills School District
+          </li>
+          <li>Para Professional, September 2010 - June 2012</li>
+        </ul>
+        <ul className="resume-job-description">
+          <li>Provided support and guidance to students with special needs.</li>
+          <li>
+            Collaborated with an educational team consisting of various teachers
+            and administrators.
+          </li>
+          <li>
+            Initiated the implementation of a Behavioral Intervention Plan for a
+            student with behavioral difficulties.
+          </li>
+          <li>
+            Assisted special education teachers with both crisis and behavioral
+            management.
+          </li>
+          <li>
+            Motivated and influenced students to improve both academically and
+            socially.
+          </li>
+        </ul>
+      </section>
+
+      <section className="resume-label">
+        <h2>Relevant Experience</h2>
+      </section>
+
+      <section className="resume-job">
+        <ul>
+          <li className="resume-job-title">
+            Heckscher Museum Of Art: Summer Art Sense Program, Huntington, NY
+          </li>
+          <li>Museum Educator Intern, Summer 2012</li>
+        </ul>
+        <ul className="resume-job-description">
+          <li>
+            Facilitated student’s art exhibition where family and friends are
+            welcome to view their children’s artwork.
+          </li>
+          <li>
+            Assisted in helping children to explore contemporary works of art on
+            view in the museum.
+          </li>
+          <li>
+            Granted student’s the opportunity to create artwork that is based on
+            works in the museum.
+          </li>
+        </ul>
+      </section>
+
+      <section className="resume-job">
+        <ul>
+          <li className="resume-job-title">
+            Teen Hampton Country Day Camp, East Hampton, NY
+          </li>
+          <li>Art Teacher, Summer 2011</li>
+        </ul>
+        <ul className="resume-job-description">
+          <li>
+            Created fun and engaging art activities to middle school and high
+            school aged students.
+          </li>
+          <li>
+            Developed an innovative art program designed for student’s
+            individual interests.
+          </li>
+          <li>
+            Arranged and chaperoned trips to local Art Museums and Galleries.
+          </li>
+          <li>
+            Responsible for guiding students while collaborating on numerous
+            projects..
           </li>
         </ul>
       </section>
